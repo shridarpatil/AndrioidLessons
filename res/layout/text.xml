@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp" >
+
+    <EditText
+        android:id="@+id/etcmd"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="enter a command"
+        android:password="True" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/cmdbtn"
+            android:layout_width="211dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="26dp"
+            android:gravity="center"
+            android:text="submit" />
+
+        <ToggleButton
+            android:id="@+id/tgbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:text="ToggleButton"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Invalid" />
+
+</LinearLayout>

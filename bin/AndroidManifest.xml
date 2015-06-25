@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirst"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<uses-permission android:name="android.permission.SET_WALLPAPER"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+  
+
+  
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.myfirst.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.myfirst.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.myfirst.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.myfirst.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.example.myfirst.TextPlay"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+            <activity
+            android:name="com.example.myfirst.Email"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+               <activity
+            android:name="com.example.myfirst.Aboutus"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Dialog">
+           
+        </activity>
+        
+            <activity
+            android:name="com.example.myfirst.camera"
+            android:label="Camera app"
+            android:screenOrientation="portrait" >
+           
+        </activity>
+
+         
+       
+    </application>
+
+</manifest>

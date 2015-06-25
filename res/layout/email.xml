@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:weightSum="100">
+
+    
+    <ScrollView
+        android:layout_weight="30"
+         android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  >
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EmailId" />
+
+    <EditText
+        android:id="@+id/emtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+      
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtviw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/personname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduction" />
+
+    <EditText
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stupid action" />
+
+    <EditText
+        android:id="@+id/stupidtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hateful Action" />
+
+    <EditText
+        android:id="@+id/hatefultxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="outro" />
+
+    <EditText
+        android:id="@+id/outro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+</LinearLayout>
+</ScrollView>
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_weight="40">
+    <Button
+        android:id="@+id/embtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+    </LinearLayout>
+    
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_weight="30">
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</LinearLayout>
